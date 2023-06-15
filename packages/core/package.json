@@ -1,0 +1,21 @@
+{
+  "name": "@sst-links/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^0.32.0",
+    "@types/node": "^20.3.1",
+    "sst": "^2.13.2"
+  },
+  "dependencies": {
+    "ulid": "^2.3.0",
+    "kysely": "^0.25.0",
+    "kysely-data-api": "^0.2.1",
+    "aws-sdk": "^2.1398.0",
+    "@aws-sdk/client-rds-data": "^3.352.0"
+  }
+}
